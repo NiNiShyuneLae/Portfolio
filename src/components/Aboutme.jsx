@@ -35,12 +35,12 @@ const Aboutme = () => {
             </h4>
             </div>
             <div>
-            <button className="uppercase font-medium mt-[10px] mr-4 py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary">
+            <a href="#contact"  className="uppercase font-medium mt-[10px] mr-4 py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary">
               Contact Me
-            </button>
-            <button className="uppercase font-medium mt-[10px] py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary">
+            </a>
+            <a href="#portfolio" className="uppercase font-medium mt-[10px] py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary">
               Portfolio
-            </button>
+            </a>
             </div>
           </div>
         </div>

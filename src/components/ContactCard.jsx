@@ -1,11 +1,14 @@
 import React from 'react'
 
 const ContactCard = () => {
+  const submitHandler = (e) => {
+    e.preventDefault()
+  }
   return (
     <div className='p-[25px] md:p-[35px] bg-white col-span-1'>
         <h2 className='text-[32px] font-semibold mb-[5px]'>Get in touch</h2>
         <p className="text-[18px] mb-[30px] text-textColor">Our friendly team would love to hear from you.</p>
-        <form >
+        <form onSubmit={submitHandler}>
             <div className="grid grid-cols-2 gap-3 mb-3">
                 <div className="col-span-2 md:col-span-1">
                   <div className='flex flex-col gap-2'>

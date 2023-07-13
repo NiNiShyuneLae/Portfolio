@@ -26,7 +26,7 @@ const Nav = ({ data }) => {
       <div className={` py-3  transition-all ${show ? "bg-white" : ""}`}>
         <nav className=" container mx-auto ">
           <div className=" flex flex-wrap items-center justify-between mx-auto py-4">
-            <a className="flex items-center">
+            <a href="#" className="flex items-center">
               <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
             </a>
             <button
