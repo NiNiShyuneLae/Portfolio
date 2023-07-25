@@ -66,20 +66,10 @@ const Nav = ({ data }) => {
                     } py-2 pl-3 pr-4 text-base tracking-[2px] uppercase font-medium  md:p-0 `}
                     aria-current="page"
                   >
-                    Home
+                    About me
                   </a>
                 </li>
-                <li className="link">
-                  <a
-                    href="#services"
-                    className={`${
-                      pg === "services" ? "active" : ""
-                    } py-2 pl-3 pr-4 text-base tracking-[2px] uppercase font-medium  md:p-0`}
-                    aria-current="page"
-                  >
-                    services
-                  </a>
-                </li>
+              
                 <li className="link">
                   <a
                     href="#skills"

@@ -42,7 +42,6 @@ const App = () => {
   return (
     <div>
       <Home data={activeSection}/>
-      <Services />
       <Skills />
       <Portfolio />
       <Contact />

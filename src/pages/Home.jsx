@@ -13,7 +13,6 @@ const Home = ({data}) => {
         <Nav data={data}/>
         <Intro/>
       </div>
-      <Banner/>
       <Aboutme/>
     </section>
   );

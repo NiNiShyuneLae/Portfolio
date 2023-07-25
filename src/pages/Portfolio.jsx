@@ -6,7 +6,6 @@ const Portfolio = () => {
   return (
     <section id='portfolio' className='data-section'>
         <PortfolioCard/>
-        <Testimonial/>
     </section>
   )
 }

@@ -3,11 +3,16 @@ import img from "../assets/images/contact-bg.png";
 import { FaEnvelope, FaPhoneAlt, FaPhoneSquareAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import Lottie from 'lottie-react'
+import animation from '../assets/icons/animation_lkf8ztyt.json'
 
 const ContactInfo = () => {
   return (
-    <div className=" col-span-1 w-full lg:w-[80%] ms-0 lg:ms-[200px]">
-      <img src={img} className="w-full mb-10" alt="" />
+    <div className="mx-auto  w-full md:w-1/2 " >
+      <div className="">
+      <Lottie animationData={animation} className="h-[500px] " loop={true} />
+      </div>
+      <div className="">
       <div className=" pb-[35px] flex gap-5 ">
         <div className="w-[55px] h-[55px] p-[10px] flex justify-center items-center border-secondary border-2 bg-[#9BD3D0]">
           <FaPhoneAlt className="text-[26px]" />
@@ -17,7 +22,7 @@ const ContactInfo = () => {
             phone
           </p>
           <p className="text-lg md:text-xl text-gray-100 font-medium">
-            +01 123 654 8096
+            09774701629
           </p>
         </div>
       </div>
@@ -30,7 +35,7 @@ const ContactInfo = () => {
           Mail
           </p>
           <p className="text-lg md:text-xl text-gray-100 font-medium">
-          info@domainname.com
+          augustnini46@gmail.com
           </p>
         </div>
       </div>
@@ -40,14 +45,16 @@ const ContactInfo = () => {
         </div>
         <div>
           <p className="text-sm uppercase text-gray-400 font-medium mb-2">
-          Visit My Studio
+          Address
           </p>
           <p className="text-lg md:text-xl text-gray-100 font-medium">
-          Warnwe Park Streetperrine, 
+          Yadanar Street,
           <br />
-          FL 33157 New York City
+          Nyaung Phyu Sakham Quarter ,
+          Taunggyi
           </p>
         </div>
+      </div>
       </div>
     </div>
   );

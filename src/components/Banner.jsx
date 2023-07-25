@@ -8,7 +8,7 @@ import five from '../assets/images/brand-5.svg';
 const Banner = () => {
   return (
     <div className='py-10 bg-secondary'>
-        <div className='container mx-auto flex items-center justify-between'>
+        <div className='container mx-auto flex flex-col items-center justify-between'>
             <div className='w-[130px] md:w-[150px]'>
             <img className='w-full  mr-5 p-5' src={one} alt="" />
             </div>
