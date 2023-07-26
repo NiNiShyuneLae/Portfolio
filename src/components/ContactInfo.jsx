@@ -35,7 +35,7 @@ const ContactInfo = () => {
           Mail
           </p>
           <p className="text-lg md:text-xl text-gray-100 font-medium">
-          augustnini46@gmail.com
+          ninishyunelae@gmail.com
           </p>
         </div>
       </div>

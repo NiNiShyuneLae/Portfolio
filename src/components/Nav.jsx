@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../assets/images/logo.svg";
+import {BsCodeSlash} from "react-icons/bs";
 import "./Nav.css";
 
 const Nav = ({ data }) => {
@@ -23,11 +23,12 @@ const Nav = ({ data }) => {
   }, []);
   return (
     <div className="fixed top-0 left-0 w-full z-10">
-      <div className={` py-3  transition-all ${show ? "bg-white" : ""}`}>
+      <div className={`   transition-all ${show ? "bg-white" : ""}`}>
         <nav className=" container mx-auto ">
           <div className=" flex flex-wrap items-center justify-between mx-auto py-4">
             <a href="#" className="flex items-center">
-              <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
+              <BsCodeSlash className="text-[32px]  mr-3 text-primary"/>
+              <h1 className="text-[32px]">NiNi<i className="text-primary">Dev</i></h1>
             </a>
             <button
               data-collapse-toggle="navbar-default"

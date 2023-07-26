@@ -2,6 +2,8 @@ import React from "react";
 import about from "../assets/images/aboutme-banner.png";
 import Lottie from "lottie-react";
 import animation from "../assets/icons/animation_lkex9q7x.json";
+import {BsGithub} from 'react-icons/bs';
+import resume from '../assets/NiNiShyuneLae-resume.pdf'
 
 const Aboutme = () => {
   return (
@@ -10,6 +12,7 @@ const Aboutme = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="col-span-1 mx-auto mb-[25px] lg:mb-0 lg:mx-0">
             <Lottie animationData={animation} loop={true} />
+            
           </div>
           <div className="col-span-1">
             <h1 className="font-semibold text-[26px] md:text-[40px] mb-[25px]">
@@ -27,7 +30,10 @@ const Aboutme = () => {
               journey of growth and creativity as we build exceptional digital
               experiences together. Thank you for visiting.
             </p>
-      
+              <div className="cursor-pointer flex items-center gap-2">
+                <BsGithub/>
+                <a href="https://github.com/NiNiShyuneLae" target="_blank" className="font-semibold pb-1 hover:text-gray-500  hover:underline transition-all duration-400">Follow me on github for more details</a>
+              </div>
             <div className="pt-[25px]">
               <a
                 href="#contact"
@@ -36,7 +42,8 @@ const Aboutme = () => {
                 Contact Me
               </a>
               <a
-                
+                href={resume}
+                download='NiNiShyuneLae-resume.pdf'
                 className="uppercase cursor-pointer font-medium mt-[10px] py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary"
               >
                 Download CV

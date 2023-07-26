@@ -45,7 +45,6 @@ const App = () => {
       <Skills />
       <Portfolio />
       <Contact />
-      <Footer />
     </div>
   );
 };

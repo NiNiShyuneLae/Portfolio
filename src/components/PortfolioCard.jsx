@@ -16,7 +16,7 @@ const PortfolioCard = () => {
         <div className=" grid grid-cols-1  md:grid-cols-2 gap-0 md:gap-10 mb-5 lg:mb-3 pb-12 lg:pb-3">
           <div className="col-span-1 mb-8 md:mb-0 md:my-auto transition-all duration-500 box">
             <div className="relative overflow-x-hidden pocard">
-              <a href="https://create-contact.netlify.app/" target="blank" className="absolute  top-5 translate-x-[-50px] card">
+              <a href="https://create-contact.netlify.app/" target="_blank" className="absolute  top-5 translate-x-[-50px] card">
                 <div className=" flex justify-center items-center  p-[8px]  border-secondary border-2 bg-white">
                   <FiArrowRight className="text-[24px]" />
                 </div>
@@ -40,7 +40,7 @@ const PortfolioCard = () => {
               CSS, lets you effortlessly create and organize contacts. Enjoy a
               seamless user experience on all devices.
             </p>
-            <a href="https://create-contact.netlify.app" target="blank" className="uppercase font-medium text-sm  py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary">
+            <a href="https://create-contact.netlify.app" target="_blank" className="uppercase font-medium text-sm  py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary">
               view project
             </a>
           </div>
@@ -61,7 +61,7 @@ const PortfolioCard = () => {
             </p>
             <a
               href="https://bauen-interior.netlify.app/"
-              target="blank"
+              target="_blank"
               className="uppercase font-medium text-sm  py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary"
             >
               view project
@@ -69,11 +69,11 @@ const PortfolioCard = () => {
           </div>
           <div className="col-span-1  md:mb-0 md:my-auto transition-all duration-500 box">
             <div className="relative overflow-x-hidden pocard   ">
-              <div className="absolute  top-5 translate-x-[-50px] card">
+              <a href="https://bauen-interior.netlify.app/" target="_blank" className="absolute  top-5 translate-x-[-50px] card">
                 <div className=" flex justify-center items-center  p-[8px]  border-secondary border-2 bg-white">
                   <FiArrowRight className="text-[24px]" />
                 </div>
-              </div>
+              </a>
               <img
                 src={interior}
                 className=" border-2 lg:p-3 p-0 border-secondary"
@@ -85,11 +85,11 @@ const PortfolioCard = () => {
         <div className=" grid grid-cols-1  md:grid-cols-2 gap-0 md:gap-10 mb-5 lg:mb-3 pb-12 lg:pb-3">
           <div className="col-span-1 mb-8 md:mb-0 md:my-auto transition-all duration-500 box">
             <div className="relative overflow-x-hidden pocard   ">
-              <div className="absolute  top-5 translate-x-[-50px] card">
+              <a href="https://bauen-architecture-dashboard.netlify.app/" target="_blank" className="absolute  top-5 translate-x-[-50px] card">
                 <div className=" flex justify-center items-center  p-[8px]  border-secondary border-2 bg-white">
                   <FiArrowRight className="text-[24px]" />
                 </div>
-              </div>
+              </a>
               <img
                 src={db}
                 className=" border-2 border-secondary lg:p-3 p-0"
@@ -111,7 +111,7 @@ const PortfolioCard = () => {
             </p>
             <a
               href="https://bauen-architecture-dashboard.netlify.app/"
-              target="blank"
+              target="_blank"
               className="uppercase font-medium text-sm  py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary"
             >
               view project
@@ -132,7 +132,7 @@ const PortfolioCard = () => {
             </p>
             <a
               href="https://shop-by-nini.netlify.app/"
-              target="blank"
+              target="_blank"
               className="uppercase font-medium text-sm  py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary"
             >
               view project
@@ -140,11 +140,11 @@ const PortfolioCard = () => {
           </div>
           <div className="col-span-1  md:mb-0 md:my-auto transition-all duration-500 box">
             <div className="relative overflow-x-hidden pocard   ">
-              <div className="absolute  top-5 translate-x-[-50px] card">
+              <a href="https://shop-by-nini.netlify.app/" target="_blank" className="absolute  top-5 translate-x-[-50px] card">
                 <div className=" flex justify-center items-center  p-[8px]  border-secondary border-2 bg-white">
                   <FiArrowRight className="text-[24px]" />
                 </div>
-              </div>
+              </a>
               <img
                 src={shop}
                 className=" border-2  lg:p-3 p-0 border-secondary"
