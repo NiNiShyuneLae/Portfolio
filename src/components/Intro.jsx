@@ -24,9 +24,9 @@ const Intro = () => {
   }, []);
   return (
     <div className="home">
-      <div className="container mx-auto min-h-screen flex items-center justify-center lg:justify-between ">
+      <div className="container mx-auto  flex items-center justify-center lg:justify-between py-[45px] md:py-[100px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 ">
-          <div className="col-span-1 mb-[50px] lg:mb-0 pt-[120px] pb-[80px] lg:pt-[180px] lg:pb-[100px] text-center lg:text-start">
+          <div className="col-span-1  mb-[50px] lg:mb-0 pt-[120px] pb-[80px] lg:pt-[180px] lg:pb-[100px] text-center lg:text-start">
             <p className="font-semibold tracking-[2px] mb-[30px] text-base uppercase">
               👋, My name is Ni Ni Shyune Lae
             </p>
@@ -40,7 +40,7 @@ const Intro = () => {
               Let's Start
             </button>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 hidden lg:block">
             <Lottie animationData={animation} loop={true}/>
           </div>
         </div>

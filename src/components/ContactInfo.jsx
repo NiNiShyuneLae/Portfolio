@@ -12,7 +12,7 @@ const ContactInfo = () => {
       <div className="">
       <Lottie animationData={animation} className="h-[500px] " loop={true} />
       </div>
-      <div className="">
+      <div className="p-4">
       <div className=" pb-[35px] flex gap-5 ">
         <div className="w-[55px] h-[55px] p-[10px] flex justify-center items-center border-secondary border-2 bg-[#9BD3D0]">
           <FaPhoneAlt className="text-[26px]" />

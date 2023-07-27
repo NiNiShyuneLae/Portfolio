@@ -8,9 +8,9 @@ import resume from '../assets/NiNiShyuneLae-resume.pdf'
 const Aboutme = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex min-h-screen justify-between py-[45px] md:py-[100px]">
-        <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="col-span-1 mx-auto mb-[25px] lg:mb-0 lg:mx-0">
+      <div className="flex  justify-between py-[45px] md:py-[100px]">
+        <div className=" grid grid-cols-1 md:grid-cols-2">
+          <div className="col-span-1  mx-auto mb-[25px] lg:mb-0 lg:mx-0">
             <Lottie animationData={animation} loop={true} />
             
           </div>
@@ -34,7 +34,7 @@ const Aboutme = () => {
                 <BsGithub/>
                 <a href="https://github.com/NiNiShyuneLae" target="_blank" className="font-semibold pb-1 hover:text-gray-500  hover:underline transition-all duration-400">Follow me on github for more details</a>
               </div>
-            <div className="pt-[25px]">
+            <div className="pt-[25px] flex flex-col lg:flex-row items-start gap-2">
               <a
                 href="#contact"
                 className="uppercase font-medium mt-[10px] mr-4 py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary"

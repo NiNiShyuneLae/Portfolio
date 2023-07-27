@@ -17,14 +17,14 @@ import animation from '../assets/icons/animation_lkewrkqh.json'
 const Skills = () => {
   return (
  <>
-    <section className=" p-[100px] data-section bg-orange-50" id="skills">
-      <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto">
+    <section className="lg:p-[100px] p-[4px] py-[100px] data-section bg-orange-50" id="skills">
+      <div className="grid  grid-cols-1 md:grid-cols-2 container mx-auto">
         <div className="col-span-1">
           <h1 className="uppercase mb-[60px] text-[35px] md:text-[40px] lg:text-[50px] font-semibold">
             my skills
           </h1>
-          <div className="container mx-auto grid grid-cols-2 gap-2 md:gap-4">
-            <div className="p-[15px] col-span-1 flex gap-5 border-secondary border-2 bg-[#f69f7a] box">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
+            <div className="p-[15px]  col-span-1 flex gap-5 border-secondary border-2 bg-[#f69f7a] box">
               <div className="w-[50px] h-[50px] p-[10px] flex justify-center items-center border-secondary border-2 bg-white">
                 <FaHtml5 className="text-[32px]" />
               </div>
@@ -90,7 +90,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-1 pt-[40px] md:pt-0">
+        <div className="col-span-1 pt-[40px] md:pt-0 my-auto">
           <Lottie animationData={animation} loop={true}/>
         </div>
       </div>

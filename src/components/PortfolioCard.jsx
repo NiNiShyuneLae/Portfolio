@@ -2,7 +2,7 @@ import React from "react";
 import contact from "../assets/images/contact.png";
 import db from "../assets/images/dashboard.png";
 import interior from "../assets/images/interior.png";
-import shop from "../assets/images/shop.png";
+import dummy from "../assets/images/dummy.png";
 import { FiArrowRight } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 
@@ -123,15 +123,14 @@ const PortfolioCard = () => {
             <button className="py-2 px-5 rounded-full mb-5 bg-orange-100 uppercase text-sm md:text-base">
               Web Application
             </button>
-            <h4 className="text-xl md:text-3xl font-semibold mb-6">Shopify</h4>
+            <h4 className="text-xl md:text-3xl font-semibold mb-6">QuickBuy</h4>
             <p className="text-textColor mb-6 text-base lg:text-lg">
               Explore a variety of products, read detailed descriptions, and
-              shop with ease. Powered by HTML, CSS, JavaScript, Sass, and the
-              Fake Store API, our user-friendly interface ensures a seamless
+              shop with ease. Powered by HTML, CSS, Bootstrap , React and Dummy JSON, our user-friendly interface ensures a seamless
               shopping experience on any device.
             </p>
             <a
-              href="https://shop-by-nini.netlify.app/"
+              href="https://dummy-cart-rtk.netlify.app/"
               target="_blank"
               className="uppercase font-medium text-sm  py-[10px] px-[20px] tracking-[2px] btn text-white bg-primary"
             >
@@ -140,13 +139,13 @@ const PortfolioCard = () => {
           </div>
           <div className="col-span-1  md:mb-0 md:my-auto transition-all duration-500 box">
             <div className="relative overflow-x-hidden pocard   ">
-              <a href="https://shop-by-nini.netlify.app/" target="_blank" className="absolute  top-5 translate-x-[-50px] card">
+              <a href="https://dummy-cart-rtk.netlify.app/" target="_blank" className="absolute  top-5 translate-x-[-50px] card">
                 <div className=" flex justify-center items-center  p-[8px]  border-secondary border-2 bg-white">
                   <FiArrowRight className="text-[24px]" />
                 </div>
               </a>
               <img
-                src={shop}
+                src={dummy}
                 className=" border-2  lg:p-3 p-0 border-secondary"
                 alt=""
               />
